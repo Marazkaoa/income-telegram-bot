@@ -36,7 +36,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 
-async def menu(update: Update, context: ContextTypes.OBJECT):
+async def menu(update: Update, context: ContextTypes.DEFAULT_TYPE
+):
     user_id = update.effective_user.id
 
     if not is_allowed(user_id):
@@ -49,7 +50,8 @@ async def menu(update: Update, context: ContextTypes.OBJECT):
     )
 
 
-async def admin(update: Update, context: ContextTypes.OBJECT):
+async def admin(update: Update, context: ContextTypes.DEFAULT_TYPE
+):
     await owner_only(update, context)
     await update.message.reply_text(
         "🔐 MENU QUẢN TRỊ",
