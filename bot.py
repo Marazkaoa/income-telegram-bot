@@ -23,7 +23,8 @@ from modules.report import auto_daily_report
 TOKEN = "PUT_YOUR_BOT_TOKEN_HERE"
 
 
-async def start(update: Update, context: ContextTypes.OBJECT):
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+
     user_id = update.effective_user.id
 
     if not is_allowed(user_id):
