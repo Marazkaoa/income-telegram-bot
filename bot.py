@@ -222,4 +222,12 @@ async def main():
 
 
 if __name__ == "__main__":
+    import nest_asyncio
+    import asyncio
+
+    # Áp dụng patch để tránh lỗi "event loop is already running"
+    nest_asyncio.apply()
+
+    # Chạy bot
     asyncio.run(main())
+
