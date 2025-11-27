@@ -1,4 +1,5 @@
 {
-    "owner_id": 7419898008,
-    "allowed_users": []
+    "BOT_TOKEN": "YOUR_BOT_TOKEN_HERE",
+    "OWNER_ID": 7419898008,
+    "ALLOWED_USERS": []
 }
