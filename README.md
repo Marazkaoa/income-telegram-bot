@@ -1,2 +1,6 @@
-# income-telegram-bot
-Bot tính thu nhập theo ngày + thống kê + quản lý quyền
+# Telegram Finance Bot PRO
+
+Quản lý lợi nhuận — thống kê — biểu đồ — phân quyền người dùng.
+
+## 🚀 Cách chạy
+
